@@ -1,0 +1,147 @@
+body{
+  height: 140vh;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  /* width: 100vw; */
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 400; */
+  font-style: normal;
+  margin-top: 3rem;
+  /* border: 1px solid grey; */
+  /* background-color: yellow; */
+}
+.leaderboard{
+  /* background-color: aliceblue; */
+  background-color: rgb(251, 248, 249); 
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid rgb(230, 230, 230);
+  padding: 3rem;
+  border-radius: 10px;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+th{
+  font-weight: 600;
+
+}
+.head{
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0rem 1rem 2rem;
+}
+.select{
+  background-color: rgb(255 225 235);
+  font-weight: 500;
+  color: rgb(65,65,65);
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 12rem;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0pc 13px;
+}
+
+a{
+  text-decoration: none;
+    color: rgb(226, 116, 152);
+    padding: 6px 11px;
+    font-size: 13px;
+    border: 1px solid rgba(226, 116, 153, 0.592);
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+a:hover{
+  background: rgb(226, 116, 152);
+    color: white;
+    /* border: white; */
+}
+
+.hori{
+  width: 190px;
+  /* margin: 5px; */
+  height: 4px;
+  background-color: rgb(226 116 152 / 45%);
+  border-radius: 5px;
+  margin-bottom: 4rem;
+}
+h1{
+  margin: 0;
+    font-weight: 600;
+    /* color: #f9c0c3; */
+    color: rgb(255 180 205);
+    /* font-weight: bold; */
+    font-size: -webkit-xxx-large;
+}
+.top{
+  color: rgb(234 135 167);
+    background: #efeaea;
+}
+th{
+  outline: none;
+  border: none;
+}
+h2{
+  font-size: xx-large;
+  font-weight: 600;
+  color: #2b2b2b;
+}
+select{
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+
+}
+.ic{
+  display: flex;
+  align-items: center;
+  gap: 10px
+  /* color: aqua; */
+}
+td{
+  color: #202020;
+    font-size: 15px;
+    text-align: center;
+}
+table{
+  border: 1px solid #80808029;
+}
+/* th, td {
+  border-bottom: 1px solid #ddd;
+} */
+@media screen and (max-width: 700px ){
+.container{
+  scale: 0.8;
+  margin: 0;
+}
+  .leaderboard{
+    padding: 1rem;
+  }
+  th, td {
+    padding: 0px;}
+    h2{
+      font-size: 22px;
+    }
+    td{
+      font-size: 12px;
+
+    }
+    .top{
+      font-size: 12px;
+    }
+}
